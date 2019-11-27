@@ -19,11 +19,11 @@ source:
   sha256: 5227ee626df97c7f06336697851aedbd114ea914d4d20988ec9c3dd07f69413b  # [win]
 
 build:
-   number: 0
+   number: 1
 
 requirements:
   run:
-    - pandoc >=2.7.3,<2.8
+    - pandoc >=2.7.3,<=2.8
 
 test:
   commands:
