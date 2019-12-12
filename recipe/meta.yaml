@@ -1,4 +1,4 @@
-{% set version = "0.3.5.0.2" %}
+{% set version = "0.3.6.0" %}
 
 {% set crossref_ver = "0.3.5.0b" %}
 {% set pandoc_unix_ver = "2_8_1" %}
