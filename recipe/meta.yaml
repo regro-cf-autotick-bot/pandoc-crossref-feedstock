@@ -1,8 +1,8 @@
 {% set version = "0.3.6.1" %}
 {% set postf1 = ".1" %}
 {% set postf2 = "a" %}
-{% set pandoc = "2.9" %}
-{% set pandoc0 = "2_9" %}
+{% set pandoc = "2.9.1" %}
+{% set pandoc0 = "2_9_1" %}
 {% set pandoc1 = "2.10" %}
 
 package:
