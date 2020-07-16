@@ -5,7 +5,7 @@ Home: https://github.com/lierdakil/pandoc-crossref
 
 Package license: GPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Pandoc filter for cross-references
 
