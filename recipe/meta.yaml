@@ -16,7 +16,7 @@ source:
   sha256: d40cf2e583f5b786335248e06d3dfc6bd690b979ca9ed64e83d07e0ac8f73345  # [osx]
 
   url: https://github.com/lierdakil/pandoc-crossref/releases/download/v{{ version }}{{ postf2 }}/pandoc-crossref-Windows.7z  # [win]
-  sha256: 0ae331500b3b7c6049120a182b0306efa9ef453543ae7e46cd112d2927bfa63e  # [win]
+  sha256: 6c0492b90f6d3419ff754a1c45558ea317630e0795c534341db788c3c41f86ea  # [win]
 
 build:
    number: 0
