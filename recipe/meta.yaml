@@ -35,7 +35,7 @@ about:
   license: GPL-2.0-only
   license_family: GPL
   license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Pandoc filter for cross-references'
+  summary: Pandoc filter for cross-references
   doc_url: https://lierdakil.github.io/pandoc-crossref/
   dev_url: https://github.com/lierdakil/pandoc-crossref
 
