@@ -1,7 +1,7 @@
-{% set version = "0.3.6.3" %}
+{% set version = "0.3.6.2" %}
 {% set postf1 = "" %}
 {% set postf2 = "" %}
-{% set pandoc = "2.9.2.1" %}
+{% set pandoc = "2.9.2" %}
 {% set pandoc1 = "2.10" %}
 
 package:
@@ -9,14 +9,14 @@ package:
   version: {{ version }}{{ postf1 }}
 
 source:
-  url: https://github.com/lierdakil/pandoc-crossref/releases/download/v{{ version }}{{ postf2 }}/pandoc-crossref-Linux-{{ pandoc }}.tar.xz  # [linux64]
-  sha256: 19ff5f0af8706598e90d164d577ce7fc7d0e403fbe5e3d41c1e3e2cbf26ecb26  # [linux64]
+  url: https://github.com/lierdakil/pandoc-crossref/releases/download/v{{ version }}{{ postf2 }}/linux-pandoc_2_9_2.tar.gz  # [linux64]
+  sha256: 8f14297487b55ecf4ce79eed8b99999198b6cf930cfeab693be7cee260a0fe43  # [linux64]
 
-  url: https://github.com/lierdakil/pandoc-crossref/releases/download/v{{ version }}{{ postf2 }}/pandoc-crossref-macOS-{{ pandoc }}.tar.xz  # [osx]
-  sha256: b827af066b44cbe30d71332d7ae766c427c3de2f0d11d9c2374a8b25299dfc41  # [osx]
+  url: https://github.com/lierdakil/pandoc-crossref/releases/download/v{{ version }}{{ postf2 }}/macos-pandoc_2_9_2.tar.gz  # [osx]
+  sha256: 73b90a78ff0515788eca438345f84590c4555493936a67465bd108a7edd1c6b5  # [osx]
 
-  url: https://github.com/lierdakil/pandoc-crossref/releases/download/v{{ version }}{{ postf2 }}/pandoc-crossref-Windows-{{ pandoc }}.7z  # [win]
-  sha256: aee00b0eb376032c8b09ecf5384e194f61b078eb4840281ead34baa8d1206feb  # [win]
+  url: https://github.com/lierdakil/pandoc-crossref/releases/download/v{{ version }}{{ postf2 }}/windows-x86_64-pandoc_{{ pandoc }}.zip  # [win]
+  sha256: 75ac5da714fae4b41aef5c4767f7a6dcec5373ad7928483738044150f41226de  # [win]
 
 build:
    number: 0
@@ -35,7 +35,7 @@ about:
   license: GPL-2.0-only
   license_family: GPL
   license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Pandoc filter for cross-references'
+  summary: Pandoc filter for cross-references
   doc_url: https://lierdakil.github.io/pandoc-crossref/
   dev_url: https://github.com/lierdakil/pandoc-crossref
 
