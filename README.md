@@ -3,7 +3,7 @@ About pandoc-crossref
 
 Home: https://github.com/lierdakil/pandoc-crossref
 
-Package license: GPL-2.0
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pandoc-crossref-feedstock/blob/master/LICENSE.txt)
 
