@@ -1,8 +1,8 @@
 {% set version = "0.3.8.3" %}
 {% set postf1 = "" %}
 {% set postf2 = "" %}
-{% set pandoc = "2.10.1" %}
-{% set pandoc1 = "2.11" %}
+{% set pandoc = "2.11" %}
+{% set pandoc1 = "2.12" %}
 
 package:
   name: pandoc-crossref
@@ -19,7 +19,7 @@ source:
   sha256: f5336ca2ed42db721af0fd003cffd37e35ae617505eb507bfa922a2311948d25  # [win]
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   run:
